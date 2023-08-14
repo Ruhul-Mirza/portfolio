@@ -1,0 +1,8 @@
+@media screen and (max-width:768px){
+    .contactcontainer{
+        margin: 0;
+    }
+    #map{
+        width: 93vw;
+    }
+}

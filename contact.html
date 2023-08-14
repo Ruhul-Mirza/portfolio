@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/contact css/contact.css" />
+    <link rel="stylesheet" href="/css/contact css/contactmedia.css" />
+    <link rel="stylesheet" href="/css/mediaquery.css" />
+    <title>Ruhul Mirza</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar animate__animated animate__rollIn animate__fast">
+      <i class="bx bx-menu" id="sidebarOpen"></i>
+      <h2>Ruhul Mirza</h2>
+  </nav>
+  
+    <!-- sidebar -->
+
+    <div class="sidebar-content-container">
+      <!-- sidebar -->
+      <div class="sidebarcontainer slidercontainer2">
+        <!-- Your sidebar content -->
+        <nav class="sidebar hoverable">
+          <div class="menu_content">
+            <ul class="menu_items">
+              <div class="menu_title menu_dahsboard"></div>
+              <!-- duplicate or remove this li tag if you want to add or remove navlink with submenu -->
+              <!-- start -->
+              <li class="item">
+                <a href="/home.html" class="nav_link submenu_item">
+                  <span class="navlink_icon">
+                    <i class="bx bxs-home"></i>
+                  </span>
+                  <span class="navlink">Home</span>
+                  <i class="bx bxs-chevron-right arrow-left"></i>
+                </a>
+
+                <a href="/about.html" class="nav_link submenu_item">
+                  <span class="navlink_icon">
+                    <i class="bx bxs-user"></i>
+                  </span>
+                  <span class="navlink">About</span>
+                  <i class="bx bxs-chevron-right arrow-left"></i>
+                </a>
+
+                <a href="/services.html" class="nav_link submenu_item">
+                  <span class="navlink_icon">
+                    <i class="bx bxs-cog"></i>
+                  </span>
+                  <span class="navlink">Service</span>
+                  <i class="bx bxs-chevron-right arrow-left"></i>
+                </a>
+
+                <a href="/contact.html" class="nav_link submenu_item active">
+                  <span class="navlink_icon">
+                    <i class="bx bxs-envelope"></i>
+                  </span>
+                  <span class="navlink">Contact</span>
+                  <i class="bx bxs-chevron-right arrow-left"></i>
+                </a>
+              </li>
+            </ul>
+            <!-- end -->
+
+            <!-- Sidebar Open / Close -->
+            <div class="bottom_content">
+              <div class="bottom expand_sidebar collapse_sidebar">
+                <span>Close</span>
+                <i class='bx bx-log-out' ></i>
+              </div>
+             
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="contactcontainer">
+        <div class="content5">
+          <div class="contact_contact">
+            <div class="contact_title ">
+              <div class="title_flex">
+                <div class="left">
+                  <span data-aos="fade-right" data-aos-once="true" data-aos-duration="2000">Contact</span>
+                  <h3 data-aos="fade-left" data-aos-once="true" data-aos-duration="2000">Get in Touch</h3>
+                  <div id="map" data-aos="slide-up" data-aos-once="true" data-aos-duration="1500">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d280.07477036344784!2d73.02244462552518!3d19.18550688368705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf3b1f3cf3c9%3A0x9476d788f7862661!2sMumbra%20Aquarium!5e0!3m2!1sen!2sin!4v1691228994627!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                  <div class="form" data-aos="fade-down" data-aos-once="true" data-aos-duration="1500">
+                      <form action="">
+                          <input type="text" placeholder="Name">
+                          <input type="text" placeholder="Email">
+                          <textarea name="" id="" placeholder="Message"></textarea>
+                          <button><a href="">Send Message</a></button>
+                      </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/js/portfolio.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset:120
+  })
+</script>  
+</html>

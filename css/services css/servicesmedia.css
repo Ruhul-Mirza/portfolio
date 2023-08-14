@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px){
+.service_services .list ul {
+    margin: 0;
+    flex-direction: column;
+}
+.service_title .title_flex {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.service_services .list ul li {
+    min-width: 100% !important;
+    padding-left: 0 !important;
+}
+.servicecontainer{
+    margin-left: 0 !important;
+}
+}
+@media screen and (max-width: 1040px){
+.service_services .list ul li {
+    min-width: 50%;
+}
+
+.service_title .title_flex {
+    flex-direction: column;
+    align-items: flex-start;
+}
+}

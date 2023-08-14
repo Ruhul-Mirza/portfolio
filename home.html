@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <title>Ruhul Mirza</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="/animation.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/animation.css">
+    <link rel="stylesheet" href="/css/mediaquery.css">
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar animate__animated animate__rollIn animate__fast">
+      <i class="bx bx-menu" id="sidebarOpen"></i>
+      <h2>Ruhul Mirza</h2>
+  </nav>
+
+    <!-- sidebar -->
+    
+
+    <div class="sidebar-content-container">
+      <!-- sidebar -->
+      <div class="sidebarcontainer">
+        <!-- Your sidebar content -->
+        <nav class="sidebar hoverable">
+          <div class="menu_content">
+            <ul class="menu_items">
+              <div class="menu_title menu_dahsboard"></div>
+              <!-- duplicate or remove this li tag if you want to add or remove navlink with submenu -->
+              <!-- start -->
+              <li class="item">
+                <a href="/home.html" class="nav_link submenu_item active">
+                  <span class="navlink_icon">
+                    <i class="bx bxs-home"></i>
+                  </span>
+                  <span class="navlink">Home</span>
+                  <i class="bx bxs-chevron-right arrow-left"></i>
+                </a>
+                
+                <a href="/about.html" class="nav_link submenu_item">
+                    <span class="navlink_icon">
+                      <i class="bx bxs-user"></i>
+                    </span>
+                    <span class="navlink">About</span>
+                    <i class="bx bxs-chevron-right arrow-left"></i>
+                </a>
+    
+                <a href="/services.html" class="nav_link submenu_item">
+                    <span class="navlink_icon">
+                      <i class="bx bxs-cog"></i>
+                    </span>
+                    <span class="navlink">Service</span>
+                    <i class="bx bxs-chevron-right arrow-left"></i>
+                </a>
+    
+                <a href="/contact.html" class="nav_link submenu_item">
+                    <span class="navlink_icon">
+                      <i class="bx bxs-envelope"></i>
+                    </span>
+                    <span class="navlink">Contact</span>
+                    <i class="bx bxs-chevron-right arrow-left"></i>
+                </a>
+              </li>
+            </ul>
+              <!-- end -->
+    
+            <!-- Sidebar Open / Close -->
+            <div class="bottom_content">
+              <div class="bottom expand_sidebar collapse_sidebar">
+                <span>Close</span>
+                <i class='bx bx-log-out' ></i>
+              </div>
+             
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- content -->
+      <div class="content">
+        <div class="avatar" data-aos="fade-right" data-aos-once="true" data-aos-duration="2000">
+          <div class="image avatar_img" >
+
+          </div>
+        </div>
+        <div class="details" data-aos="fade-left" data-aos-once="true" data-aos-duration="2000">
+          <h3 class="name">Ruhul Mirza</h3>
+          <h4 class="typer">
+            <span id="typingText"></span><span class="typed-cursor">|</span>
+          </h4>
+          <p class="job">Contribute to front-end and back-end development processes.</p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/profile.php?id=100090834323817&mibextid=b06tZ0" target="_blank" rel="noreferrer"><img class="svg" src="/socialmedia/facebook.png" alt="social"></a></li>
+            <li><a href="https://twitter.com/RuhulMirza9915" target="_blank" rel="noreferrer"><img class="svg" src="/socialmedia/twitter.png" alt="social"></a></li>
+            <li><a href="https://instagram.com/__ruhul__mirza__?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank" rel="noreferrer"><img class="svg" src="/socialmedia/instagram.png" alt="social"></a></li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+    <!-- JavaScript -->
+    <script src="/js/portfolio.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:120
+      })
+    </script>  
+  </body>
+</html>

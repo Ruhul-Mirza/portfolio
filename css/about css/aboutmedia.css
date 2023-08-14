@@ -1,0 +1,98 @@
+@media screen and (max-width: 1040px){
+.mainabout_title .title_flex {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+}
+@media screen and (max-width:350px){
+    .about_resumebox .in .place h3{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:550px){
+    .about_resume_list ul li .time2 .feb{
+        display: none;
+    }
+    .about_resume_list ul li .time2 .present{
+        display: inline-block;
+        padding: 5px 25px;
+        background-color: rgba(0,0,0,.05);
+        border-radius: 50px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 768px){
+.aboutshort_info {
+    flex-direction: column;
+}
+.aboutshort_info .left {
+    width: 100%;
+    padding-right: 0;
+}
+.about_resumebox .in .left .aboutsection_title h3,.about_resumebox .in .right .aboutsection_title h3 {
+    text-align: center;
+}
+.aboutshort_info .right {
+    width: 100%;
+    padding-left: 0;
+}
+.about{
+    padding-top: 60px;
+}
+.about_progressbox .in {
+    flex-direction: column;
+}
+.about_progressbox .in .left {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 60px;
+}
+.about_progressbox .in .right {
+    width: 100%;
+    padding-left: 0;
+}
+.about_skillbox{
+    padding: 50px 0px;
+}
+.about_skillbox .in {
+    flex-direction: column;
+}
+.about_skillbox .in .left {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 60px;
+}
+.content2 {
+    flex-direction: column;
+    top: 80px;
+    left: 40px;
+    width: calc(100% - 80px);
+  }
+  .container{
+    width: auto;
+  }
+  .about_skillbox .in .right {
+    width: 100%;
+    padding-left: 0;
+}
+.about_resumebox .in {
+    flex-direction: column;
+}
+.about_resumebox .in .left {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 60px;
+}
+.about_resumebox .in .right {
+    width: 100%;
+    padding-left: 0;
+}
+
+}
+
+/* Rest of your CSS code */
+
+  

@@ -1,0 +1,116 @@
+@media screen and (max-width:1048px){
+  .content{
+    flex-direction: column;
+    text-align: center;
+  }
+  .details .name{
+    margin: 40px 0px 20px 0px;
+  }
+}
+@media screen and (max-height: 575px) {
+    .menu_title{
+        margin: 50px 0px 10px 0px;
+        text-align: center;
+       }
+       .sidebar .nav_link{
+        padding: 5px 15px;
+       }
+       .sidebar{
+        padding: 10px 20px 20px 20px;
+      }
+      .sidebar {
+        overflow: hidden;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar{
+      padding: 30px 20px 20px 20px;
+    }
+     
+  .navbar {
+    padding: 10px;
+  }
+  .content{
+    margin: 0;
+  }
+  .bx-menu {
+    font-size: 2rem;
+  }
+
+  .logo_item h2 {
+    font-size: 1.5rem;
+  }
+
+  .navbar img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar_content {
+    column-gap: 10px;
+  }
+
+  .navbar_content i {
+    font-size: 18px;
+  }
+
+  .sidebar.close {
+    padding: 40px 0;
+  }
+
+  .menu_dahsboard::before {
+    font-size: 1.2rem;
+  }
+
+  .sidebar .nav_link {
+    padding: 10px 15px;
+  }
+  .navbar h2{
+    font-size: 1.5rem;
+   }
+
+  .content {
+    top: 80px;
+    left: 40px;
+    width: calc(100% - 80px);
+  }
+ .details .name {
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+.details {
+  margin-left: 0;
+}
+  .avatar {
+    min-width: 150px;
+    min-height: 150px;
+  }
+
+    #sidebarOpen {
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: block;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .sidebar.close {
+    left: -100%;
+  }
+  
+  .search_bar {
+    display: none;
+  }
+  .sidebar.close .bottom_content {
+    left: -100%;
+  }
+
+}
+
+@media screen and (max-width:485px) {
+       .navbar .profile,.navbar .bxs-bell{
+        display: none;
+       } 
+       
+       
+}

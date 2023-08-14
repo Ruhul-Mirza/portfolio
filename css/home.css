@@ -1,0 +1,79 @@
+
+.content {
+  padding: 20px;
+  flex-grow: 1;
+  top: 120px; 
+  display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    justify-content: space-evenly;
+  left: 100px; 
+  transition: all 0.5s ease;
+  color: #bfbfbf;
+  position: absolute;
+  width: calc(100% - 260px - 100px);
+}
+.content .image{
+  position: absolute;
+  background-image: url("/socialmedia/logomain.jpg");
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter: grayscale(50);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    animation: morph 8s ease-in-out 1s infinite;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 9px #909090;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    overflow: hidden;
+}
+.sidebar.close .content {
+  margin-left: 0;
+}
+.details {
+  margin-left: 80px;
+  
+}
+.details .name {
+  font-size: 48px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 55px 0px 15px 0px;
+}
+.details .typer {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 500;
+    line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;
+    color: #bfbfbf;
+}
+.details .job {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  max-width: 500px;
+  margin: 40px 0px;
+}
+.social {
+  width: 100%;
+  float: left;
+}
+.social li {
+  margin: 0 20px 0 0;
+  display: inline-flex;
+}
+.social li a {
+
+  text-decoration: none;
+  transition: .3s ease-in-out;
+}
+.social li a:hover{
+  transform: translateY(-5px);
+}
+.social li .svg {
+  width: 17px;
+  height: 17px;
+}
