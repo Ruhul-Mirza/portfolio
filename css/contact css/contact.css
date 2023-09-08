@@ -12,7 +12,7 @@
     top: 120px;
     background: transparent;
     transition: all 0.5s ease;
-  color: #bfbfbf;
+  color: #0a6652;
 }
 .contact_contact{
     padding: 100px 0;
@@ -27,13 +27,14 @@
 }
 .contact_title span {
     display: inline-block;
-    background-color:#000000;
+    background-color:#f6faf4;
     text-transform: uppercase;
     padding: 4px 10px;
     font-weight: 700;
     font-size: 12px;
-    color: #909090;
-    font-family: Montserrat;
+    color: #0a6652;
+    border: 1px solid #0a6652;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 0;
     margin-bottom: 15px;
 }
@@ -50,7 +51,7 @@
     height: 75vh;
     overflow: hidden;
     /* filter: grayscale(100%); */
-    filter: brightness(50%);
+    filter: brightness(80%);
   }
   
   #map iframe {
@@ -59,7 +60,8 @@
     height: 100%;
   }
   .form{
-    background: #000;
+    background: #f6faf4;
+    border:1px solid #0a6652;
     box-sizing: border-box;
     width: 100%;
     padding: 40px;
@@ -73,7 +75,7 @@
     font-size: 13px;
     margin: 20px 0px;
     min-width: auto;
-    color: #bfbfbf;
+    color: #0a6652;
     letter-spacing: 1.4px;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
@@ -82,7 +84,7 @@
     padding: 10px 15px;
     height: 44px;
     vertical-align: middle;
-    border: 1px solid #909090;
+    border: 1px solid #0a6652;
     outline: none;
     transition: all .3s ease;
     font-style: italic;
@@ -98,7 +100,7 @@ textarea{
     box-sizing: border-box;
     line-height: 1.4;
     padding: 10px!important;
-    border: 1px solid #bfbfbf;
+    border: 1px solid #0a6652;
     transition: all .3s ease;
     width: 100%;
     height: 120px;
@@ -111,9 +113,10 @@ textarea{
   }
   button a{
     text-decoration: none;
-    color: #909090;
+    color: #f6faf4;
     display: inline-block;
-    background-color: #212121;
+    background-color: #0a6652;
+    border: 1px solid #f6faf4;
     padding: 11px 40px;
     transition: all .3s ease;
   }

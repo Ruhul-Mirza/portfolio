@@ -41,19 +41,20 @@
 }
 .services_title span {
     display: inline-block;
-    background-color:#000000;
+    background-color:#f6faf4;
     text-transform: uppercase;
+    border: 1px solid #0a6652;
     padding: 4px 10px;
     font-weight: 700;
     font-size: 12px;
-    color: #909090;
+    color: #0a6652;
     font-family: Montserrat;
     letter-spacing: 0;
     margin-bottom: 15px;
 }
 .services_title h3 {
     font-weight: 800;
-    color: #bfbfbf;
+    color: #0a6652;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
 }
@@ -68,7 +69,7 @@
     clear: both;
     float: left;
     position: relative;
-    border: 1px solid #909090;
+    /* border: 1px solid #0a6652; */
     padding: 45px 30px 25px;
     transition: all .3s ease;
     cursor: pointer;
@@ -82,16 +83,16 @@
     line-height: 60px;
     text-align: center;
     border-radius: 100%;
-    background: #212121;
+    background: rgba(0,0,0,.05);
     font-weight: 700;    
-    color: #bfbfbf;
+    color: #0a6652;
     /* color: #000; */
     font-family: 'Montserrat', sans-serif;
     transition: all .3s ease;
 }
 .service_services .list ul li .title {
     font-weight: 700;
-    color: #bfbfbf;
+    color: #0a6652;
     font-size: 18px;
     margin-bottom: 15px;
 }
@@ -102,8 +103,8 @@
     float: left;
     position: relative;
     border: 1px solid rgba(0,0,0,.1);
-    background-color: #000000;
-    color: #909090;
+    background-color: #f6faf4;
+    color: #0a6652;
     padding: 45px 30px 40px;
     transition: all .3s ease;
     cursor:context-menu;

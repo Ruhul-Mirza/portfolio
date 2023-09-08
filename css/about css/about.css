@@ -14,7 +14,7 @@
   top: 120px;
   background: transparent;
   transition: all 0.5s ease;
-  color: #bfbfbf;
+  color: #0a6652;
 }
 
 .about {
@@ -99,7 +99,7 @@
   color: rgba(126, 126, 126, 0.555);
 }
 .about_info li a:hover{
-  color:#bfbfbf;
+  color:#0a6652;
 }
 .about_info ul li span:first-child {
   float: left;
@@ -122,9 +122,9 @@
 }
 .about_button a {
   text-decoration: none;
-  color: #bfbfbf;
+  color: #f6faf4;
   display: inline-block;
-  background-color: #000000;
+  background-color: #0a6652;
   padding: 11px 40px;
   transition: all .3s ease;
 }
@@ -137,7 +137,10 @@
   height: auto;
   clear: both;
   float: left;
-  background-color: #000000;
+  background-color: #f6faf4;
+  color: #0a6652;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  /* border: 2px solid #0a6652; */
   padding: 95px 0 100px;
 }
 
@@ -209,12 +212,12 @@
 }
 .progress_inner .background .bar {
   width: 100%;
-  background: #212121;
   height: 100%;
+  background:#909090 ;
 }
 .progress_inner .background .bar_in {
   height: 100%;
-  background:#909090 ;
+  background: #0a6652;
   width: 0;
   overflow: hidden;
 }
@@ -268,7 +271,8 @@
 }
 
 .aboutskill_list ul li .svg {
-  color:#bfbfbf;
+  color:#0a6652;
+  background: #f6faf4;
   width: 10px;
   height: 10px;
   position: absolute;
@@ -312,10 +316,9 @@
   position: absolute;
   width: 1px;
   height: 100%;
-  top: 0;
-  left: 10px;
-  /* background-color: rgba(0,0,0,.07); */
-  background: #909090;
+  top: 7px;
+  left: 0px;
+  background: #0a6652;
 }
 .about_resume_list ul li {
   margin: 0;
@@ -330,11 +333,11 @@
   position: absolute;
   height: 18px;
   width: 18px;
-  background: #909090;
+  background: #0a6652;
   border-radius: 100%;
   border: 1px solid #909090;
-  left: 0px;
-  top: 10px;
+  left: -10px;
+  top: 7px;
 }
 
 .about_resume_list ul li:last-child{
@@ -383,10 +386,11 @@
     position: relative;
     z-index: -1;
     height: auto;
-    color: #bfbfbf;
+    color: #0a6652;
     clear: both;
     float: left;
-    background-color: #000000;
+    background-color: #f6faf4;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     padding: 50px 0px 50px 0px;
 
 }
